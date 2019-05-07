@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="platform/prebuilts/android-emulator" />
+
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+
+  <project path="device/htc/a55ml_dtul" name="danile71/android_device_htc_a55ml_dtul" remote="github" revision="lineage-16.0"/>
+  <project path="kernel/htc/a55ml_dtul" name="danile71/android_kernel_htc_a55ml_dtul" remote="github" revision="lineage-16.0"/>
+  <project path="vendor/htc/a55ml_dtul" name="danile71/android_vendor_htc_a55ml_dtul" remote="github" revision="lineage-16.0"/>
+
+  <project path="prebuilts/gcc/linux-x86/aarch64/toolchain" name="danile71/aarch64-linux-android-gcc" remote="github" revision="master"/>
+
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-16.0"/>
+
+
+</manifest>
